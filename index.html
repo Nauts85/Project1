@@ -12,9 +12,6 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/b8a5700d3f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assests/css/style.css">
     <title>The Space Bar</title>
@@ -24,28 +21,51 @@
     <header>
     </header>
     <nav class="navbar navbar-expand-sm">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" aria-current="home" href="index.html">Home</a>
-                    <a class="nav-link" href="#">Activities</a>
-                    <a class="nav-link" href="#">Rooms</a>
-                    <a class="nav-link" href="#">Contact Us!</a>
-                </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" aria-current="home" href="index.html">Home</a>
+                <a class="nav-link" href="#">Activities</a>
+                <a class="nav-link" href="#">Rooms</a>
+                <a class="nav-link" href="#">Contact Us!</a>
             </div>
         </div>
     </nav>
     </div>
     </nav>
     <section>
-        striking background image, headline, sub headings, call to action.
-    </section>
-    <section>
-        map to premises, opening times, telephone number.
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="home-attractions-text">
+                        <h2>VIDEO GAMES!</h2>
+                        <p>Everything from Pac-man to Tetris To Mario To Overwatch We've Got You Covered.</p>
+                        <h2>COCKTAILS!</h2>
+                        <p>An Epic Selection of Cocktails. Not Your Thing? No Problem We Also Have Beer.</p>
+                        <h2>QUALITY FOOD!</h2>
+                        <p>Delicious Food Made On The premises. Vegan? Gluten Free? Fussy? No Problem.</p>
+                        <button href="#" type="button" class="btn-cta-home float-end"
+                            aria-label="button to activities page">MORE INFO</button>
+                    </div>
+                </div>
+                <div class="col-6 p-0 img-container-home-lrg">
+                    <img src="/assests/css/images/home-img-girl.jpg" alt="image of girl celebrating">
+                    <div class="row mx-0 g-0">
+                        <div class="col-6 ">
+                            <img src="/assests/css/images/home-img-arcade-cabinet.jpg" class="img-container-home-sm"
+                                alt="image of neon arcade machine">
+                        </div>
+                        <div class="col-6 img-container-home">
+                            <img src="/assests/css/images/home-img-cocktails.jpg" class="img-container-home-sm"
+                                alt="image of bright colored cocktails">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
         <div class="container fixed-bottom">
@@ -63,4 +83,8 @@
             </div>
         </div>
     </footer>
+    <!--Link to bootstrap JS CDN at the bottom to improve load times-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
