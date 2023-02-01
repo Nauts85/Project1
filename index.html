@@ -20,26 +20,27 @@
 <body>
     <header>
     </header>
-    <nav class="navbar navbar-expand-sm">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link" aria-current="home" href="index.html">Home</a>
-                <a class="nav-link" href="#">Activities</a>
-                <a class="nav-link" href="#">Rooms</a>
-                <a class="nav-link" href="#">Contact Us!</a>
+    <div class="container-md">
+        <nav class="navbar navbar-expand-sm">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="home" href="index.html">Home</a>
+                    <a class="nav-link" href="#">Activities</a>
+                    <a class="nav-link" href="#">Rooms</a>
+                    <a class="nav-link" href="#">Contact Us!</a>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     </div>
     </nav>
     <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
+        <div class="container-md">
+            <div class="row d-block d-md-inline-flex">
+                <div class="col col-md-6">
                     <div class="home-attractions-text">
                         <h2>VIDEO GAMES!</h2>
                         <p>Everything from Pac-man to Tetris To Mario To Overwatch We've Got You Covered.</p>
@@ -47,19 +48,20 @@
                         <p>An Epic Selection of Cocktails. Not Your Thing? No Problem We Also Have Beer.</p>
                         <h2>QUALITY FOOD!</h2>
                         <p>Delicious Food Made On The premises. Vegan? Gluten Free? Fussy? No Problem.</p>
-                        <button href="#" type="button" class="btn-cta-home float-end"
+                        <button href="#" type="button" class="btn-cta-home float-lg-end"
                             aria-label="button to activities page">MORE INFO</button>
                     </div>
                 </div>
-                <div class="col-6 p-0 img-container-home-lrg">
-                    <img src="/assests/css/images/home-img-girl.jpg" alt="image of girl celebrating">
-                    <div class="row mx-0 g-0">
-                        <div class="col-6 ">
-                            <img src="/assests/css/images/home-img-arcade-cabinet.jpg" class="img-container-home-sm"
+                <div class="col col-md-6 p-0 images-home-container">
+                    <img src="/assests/css/images/home-img-girl.jpg" class="img-home-lrg"
+                        alt="image of girl celebrating">
+                    <div class="row g-0">
+                        <div class="col-6">
+                            <img src="/assests/css/images/home-img-arcade-cabinet.jpg" class="img-home-sm"
                                 alt="image of neon arcade machine">
                         </div>
-                        <div class="col-6 img-container-home">
-                            <img src="/assests/css/images/home-img-cocktails.jpg" class="img-container-home-sm"
+                        <div class="col-6">
+                            <img src="/assests/css/images/home-img-cocktails.jpg" class="img-home-sm"
                                 alt="image of bright colored cocktails">
                         </div>
                     </div>
@@ -68,7 +70,7 @@
         </div>
     </section>
     <footer>
-        <div class="container fixed-bottom">
+        <div class="container-md fixed-bottom">
             <div class="row">
                 <div class="col d-flex justify-content-evenly footer-styling">
                     <a href="https://www.facebook.com/" target="_blank" aria-label="link to facebook"><i
