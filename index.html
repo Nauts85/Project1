@@ -29,17 +29,16 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" aria-current="home" href="index.html">Home</a>
-                    <a class="nav-link" href="#">Activities</a>
+                    <a class="nav-link active" aria-current="home" href="index.html">Home</a>
+                    <a class="nav-link" href="activities.html">Activities</a>
                     <a class="nav-link" href="#">Rooms</a>
                     <a class="nav-link" href="#">Contact Us!</a>
                 </div>
             </div>
         </nav>
     </div>
-    </nav>
     <section>
-        <div class="container-md">
+        <div class="container">
             <div class="row d-block d-md-inline-flex home-content-styling">
                 <div class="col col-md-6">
                     <div class="home-attractions-text">
@@ -49,14 +48,17 @@
                         <p>An Epic Selection of Cocktails. Not Your Thing? No Problem We Also Have Beer.</p>
                         <h2>QUALITY FOOD!</h2>
                         <p>Delicious Food Made On The premises. Vegan? Gluten Free? Fussy? No Problem.</p>
-                        <button href="#" type="button" class="btn-cta-home" aria-label="button to activities page">MORE
-                            INFO</button>
+                        <a href="activities.html"> <button type="button" class="btn-cta-home"
+                                aria-label="button to activities page">MORE
+                                INFO</button>
+                        </a>
                     </div>
                 </div>
-                <div class="col col-md-6 d-none d-md-block p-0 align-self-center images-home-container">
+                <div
+                    class="col col-md-6 d-none d-sm-inline-block d-md-block p-0 align-self-center images-home-container">
                     <img src="/assests/css/images/home-img-girl.jpg" class="img-home-lrg"
                         alt="image of girl celebrating">
-                    <div class="row g-0">
+                    <div class="row d-sm-none d-md-inline-flex g-0">
                         <div class="col-6">
                             <img src="/assests/css/images/home-img-arcade-cabinet.jpg" class="img-home-sm"
                                 alt="image of neon arcade machine">
@@ -100,7 +102,7 @@
         </div>
     </section>
     <footer>
-        <div class="container fixed-bottom">
+        <div class="container mt-auto">
             <div class="row">
                 <div class="col d-flex justify-content-evenly footer-styling">
                     <a href="https://www.facebook.com/" target="_blank" aria-label="link to facebook"><i
