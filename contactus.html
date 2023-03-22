@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;800&family=Saira+Extra+Condensed:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b8a5700d3f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assests/css/style.css">
+    <title>The Space Bar</title>
+</head>
+
+<body>
+    <header>
+    </header>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="index.html"><i class="fa-regular fa-keyboard"></i> - THE SPACE BAR</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="home" href="index.html">Home</a>
+                    <a class="nav-link" href="activities.html">Activities</a>
+                    <a class="nav-link" href="#">Rooms</a>
+                    <a class="nav-link active" href="contactus.html">Contact Us!</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <form action="#formconfirmation page" method="get">
+        <fieldset>
+            <legend>CONTACT US</legend>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <label for="contactreason">Reason For Contact:</label>
+                        <select name="contactreason" id="contactreason">
+                            <option value="select">Reason For Contact?</option>
+                            <option value="generalinfo">General Info</option>
+                            <option value="roombooking">Room Booking</option>
+                            <option value="gamesuggestion">Game Suggestion</option>
+                            <option value="drinkrequest">Beverage Suggestion</option>
+                            <option value="specialdiet">Dietary Request</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <label for="fname">First Name:</label>
+                        <input type="text" class="form-input-box" id="fname" name="fname" placeholder="First Name">
+                    </div>
+                    <div class="col-12">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" class="form-input-box" id="lname" name="lname" placeholder="Last Name">
+                    </div>
+                    <div class="col-12">
+                        <label for="email">Email Address:</label>
+                        <input type="email" class="form-email-input-box" id="email" name="email"
+                            placeholder="Email Address">
+                    </div>
+
+                    <div class="col-12">
+                        <label for="yourrequest" class="text-area-label">Your Request:</label>
+                        <textarea placeholder="Tell Us What's On Your Mind?"></textarea>
+                    </div>
+                    <a href="#"></a><button type="submit" class="btn-form-submit">Submit</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    <footer>
+        <div class="container mt-auto">
+            <div class="row">
+                <div class="col d-flex justify-content-evenly footer-styling">
+                    <a href="https://www.facebook.com/" target="_blank" aria-label="link to facebook"><i
+                            class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://twitter.com/" target="_blank" aria-label="link to twitter"><i
+                            class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.twitch.tv/" target="_blank" aria-label="link to twitch"><i
+                            class="fa-brands fa-twitch"></i></a>
+                    <a href="https://discord.com/" target="_blank" aria-label="link to discord"><i
+                            class="fa-brands fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Link to bootstrap JS CDN at the bottom to improve load times-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
