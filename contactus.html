@@ -40,12 +40,12 @@
     <form action="#formconfirmation page" method="get">
         <fieldset>
             <legend>CONTACT US</legend>
-            <div class="container-fluid">
+            <div class="container-xxl">
                 <div class="row">
                     <div class="col-12">
                         <label for="contactreason">Reason For Contact:</label>
-                        <select name="contactreason" id="contactreason">
-                            <option value="select">Reason For Contact?</option>
+                        <select name="contactreason" id="contactreason" required>
+                            <option value="">Reason For Contact?</option>
                             <option value="generalinfo">General Info</option>
                             <option value="roombooking">Room Booking</option>
                             <option value="gamesuggestion">Game Suggestion</option>
@@ -55,21 +55,19 @@
                     </div>
                     <div class="col-12">
                         <label for="fname">First Name:</label>
-                        <input type="text" class="form-input-box" id="fname" name="fname" placeholder="First Name">
+                        <input type="text" class="form-input-box" id="fname" name="fname" placeholder="First Name" required>
                     </div>
                     <div class="col-12">
                         <label for="lname">Last Name:</label>
-                        <input type="text" class="form-input-box" id="lname" name="lname" placeholder="Last Name">
+                        <input type="text" class="form-input-box" id="lname" name="lname" placeholder="Last Name (Optional)">
                     </div>
                     <div class="col-12">
                         <label for="email">Email Address:</label>
                         <input type="email" class="form-email-input-box" id="email" name="email"
-                            placeholder="Email Address">
+                            placeholder="Email Address" required>
                     </div>
-
                     <div class="col-12">
-                        <label for="yourrequest" class="text-area-label">Your Request:</label>
-                        <textarea placeholder="Tell Us What's On Your Mind?"></textarea>
+                        <textarea placeholder="Tell Us What's On Your Mind?" required></textarea>
                     </div>
                     <a href="#"></a><button type="submit" class="btn-form-submit">Submit</button>
                 </div>
