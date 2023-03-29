@@ -1,0 +1,543 @@
+/*-------------------------------------------------------Colors---*/
+
+body {
+    color: #fafafa;
+}
+
+a {
+    color: #fafafa;
+    text-decoration: none;
+    transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+
+a:hover {
+    color: #900b68;
+}
+
+input:hover {
+    background-color: #c9c2d6;
+}
+
+.fa-discord:hover,
+.fa-twitch:hover,
+.fa-square-facebook:hover,
+.fa-square-twitter:hover {
+    color: #900b68;
+    transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+
+
+.btn-404:hover,
+.btn-form-confirmation:hover,
+.btn-form-submit:hover,
+.btn-cta-activities:hover,
+.btn-cta-home:hover {
+    background-color: #900b68;
+}
+
+/*-------------------------------------------------------images, image-containers---*/
+
+body {
+    background-image: url(/assests/css/images/bg-image-home.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.images-home-container {
+    max-width: 650px;
+    margin-right: 32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.img-home-lrg {
+    width: 100%;
+    height: auto;
+}
+
+.img-home-sm {
+    width: 100%;
+    height: auto;
+}
+
+#google-map {
+    width: 400px;
+    height: 300px;
+}
+
+.rooms-img-wrap {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bg-404-error {
+    background-image: url(/assests/css/images/bg-404-img.jpeg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.spacer-404 {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+/*-------------------------------------------------------Fonts, Buttons, styling---*/
+
+h2,
+h3,
+p {
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+q {
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+.tripadvisor-star-icon {
+    display: block;
+}
+
+.tripadvisor-reviews {
+    text-align: center;
+}
+
+.content-bg-styling {
+    border-top: 3px solid #fafafa;
+    border-bottom: 3px solid #fafafa;
+    margin-bottom: 32px;
+    background-color: rgba(81, 6, 138, .7);
+}
+
+.home-attractions-text h2 {
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 2;
+    letter-spacing: 0.8rem;
+}
+
+.home-attractions-text p {
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.btn-cta-home {
+    font-family: 'Orbitron', sans-serif;
+    color: #fafafa;
+    background-color: #69666f;
+    padding: 8px 16px 8px 16px;
+    margin-bottom: 1rem;
+    transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+}
+
+.btn-404 {
+    font-family: 'Orbitron', sans-serif;
+    color: #fafafa;
+    background-color: #69666f;
+    padding: 8px 16px 8px 16px;
+    margin-bottom: 1rem;
+    top: 280px;
+    position: relative;
+    transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+}
+
+.activities-nav-styling {
+    background-color: #51068a;
+    border: 2px solid #69666f;
+    padding-top: 3px;
+    letter-spacing: .1rem;
+}
+
+
+.activities-content-bg-styling {
+    border-bottom: 3px solid #fafafa;
+    margin-bottom: 32px;
+    background-color: rgba(81, 6, 138, .7);
+}
+
+
+
+.card-title {
+    color: #fafafa;
+    font-family: 'Orbitron', sans-serif;
+    font-size: calc(2rem + .9vw);
+    font-weight: 900;
+    line-height: 4rem;
+    letter-spacing: .5rem;
+    border-bottom: 3px solid #fafafa;
+}
+
+.activities-card-lead {
+    font-size: calc(1.4rem + .9vw);
+    word-spacing: calc(.25rem + .9vw); 
+}
+
+
+.activities-card-lead .huge-txt {
+    font-size: calc(2rem + .9vw);
+    letter-spacing: .5rem;
+    font-weight: 900;
+}
+
+.activities-card-cta-text {
+    font-size: calc(.8rem + .9vw);
+    font-weight: 600;
+    letter-spacing: .1rem;
+    margin-bottom: 0px;
+}
+
+
+.card-ul-styling>li {
+    font-size: calc(.7rem + .9vw);
+    font-weight: 400;
+}
+
+.fa-solid.fa-burger,
+.fa-solid.fa-trophy,
+.fa-solid.fa-martini-glass,
+.fa-solid.fa-gamepad {
+    font-size: 130px;
+}
+
+
+.btn-cta-activities {
+    font-family: 'Orbitron', sans-serif;
+    color: #fafafa;
+    background-color: #69666f;
+    padding: 8px 16px 8px 16px;
+    margin-bottom: 1rem;
+    transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+}
+
+#space-bar,
+#video-games {
+    height: 610px;
+}
+
+#events {
+    height: 710px;
+}
+
+#food {
+    height: 685px;
+}
+
+/*-------------------------------------------------------Navbar---*/
+
+.navbar-toggler {
+    background-color: #fafafa;
+    margin-right: 10px;
+}
+
+
+.navbar {
+    background-color: rgba(81, 6, 138, .8);
+    margin: 15px;
+}
+
+.nav-link {
+    font-family: 'Orbitron', sans-serif;
+    color: #fafafa;
+    padding: 10px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #69666f;
+    text-decoration: 3px underline #fafafa;
+}
+
+.navbar-brand {
+    font-family: 'Orbitron', sans-serif;
+    color: #fafafa;
+    font-size: 1.5rem;
+    text-indent: 0.8rem;
+    margin: 0;
+}
+
+/*-------------------------------------------------------Footer---*/
+
+.footer-styling {
+    background-color: rgba(81, 6, 138, .8);
+    padding: 10px;
+    margin: 15px;
+}
+
+.fa-brands {
+    font-size: 3.5em;
+    color: #fafafa;
+    text-decoration: none;
+}
+
+/*-------------------------------------------------------Form---*/
+
+form {
+    text-align: center;
+    display: block;
+    position: relative;
+    max-width: 582px;
+    margin: 75px auto;
+}
+
+fieldset {
+    border: 3px solid #fafafa;
+    margin-bottom: 32px;
+    background-color: rgba(81, 6, 138, .7);
+}
+
+label {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+legend {
+    font-family: 'Orbitron', sans-serif;
+}
+
+select {
+    margin-right: 30px;
+}
+
+textarea {
+    margin: 10px auto;
+    width: 100%;
+    max-width: 500px;
+    min-width: 318px;
+    height: 200px;
+    resize: none;
+}
+
+.form-input-box {
+    margin: 10px auto;
+}
+
+.form-email-input-box {
+    margin: 10px 22px 10px auto;
+}
+
+.text-area-label {
+    float: inline-start;
+    margin-top: 10px;
+}
+
+.btn-form-confirmation,
+.btn-form-submit {
+    width: 120px;
+    height: 35px;
+    font-weight: 900;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #69666f;
+    color: #fafafa;
+    border: 3px solid #fafafa;
+    border-radius: 10%;
+    margin: 10px auto;
+    display: block;
+}
+
+.form-confirmation-wrap {
+    display: block;
+    position: relative;
+    max-width: 582px;
+    border: 3px solid #fafafa;
+    background-color: rgba(81, 6, 138, .8);
+    text-align: center;
+    margin: 75px auto;
+    height: 502px;
+}
+
+.form-confirmation-wrap p {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+
+.fa-solid.fa-thumbs-up {
+    display: block;
+    font-size: 200px;
+    margin-top: 60px;
+}
+
+
+.btn-form-confirmation {
+    margin: 70px auto;
+}
+
+/*-------------------------------------------------------Media Queries---*/
+
+@media (min-width: 576px) {
+
+    .btn-cta-activities {
+        margin-top: 15px;
+    }
+
+    .card-title {
+        margin-top: 20px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .home-attractions-text h2 {
+        font-size: 2.25rem;
+    }
+
+    .images-home-container {
+        margin-right: 0;
+    }
+
+    #video-games,
+    #events {
+        height: 660px;
+    }
+
+    #space-bar,
+    #food {
+        height: 640px;
+    }
+}
+
+@media (min-width: 900px) {
+
+    #space-bar,
+    #video-games,
+    #events,
+    #food {
+        height: 585px;
+    }
+}
+
+
+@media (min-width: 992px) {
+
+
+    .tripadvisor-reviews {
+        text-align: left;
+        margin-top: 100px;
+    }
+
+
+    .home-attractions-text h2 {
+        font-size: 3.5rem;
+    }
+
+
+    .home-attractions-text p {
+        font-size: 0.8rem;
+        text-indent: 1rem;
+
+    }
+
+    .btn-cta-home {
+        margin: 40px 20px;
+    }
+
+    .activities-content-bg-styling {
+        border: none;
+        margin-bottom: 32px;
+        background: none;
+
+    }
+
+    .card-img-overlay {
+        background: rgba(0, 0, 0, 0.34);
+    }
+
+    #video-games,
+    #space-bar,
+    #events,
+    #food {
+        height: inherit;
+        display: inline-block;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+    .home-attractions-text p {
+        font-size: 0.9rem;
+        text-indent: 4rem;
+    }
+
+    .card-title {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .activities-card-lead {
+        margin-left: 40px;
+    }
+
+    .card-sub-title {
+        margin-left: 50px;
+    }
+
+    .card-ul-styling {
+        margin-left: 55px;
+    }
+
+    .activities-card-cta-text {
+        margin-left: 30px;
+        margin-top: 35px;
+    }
+
+    .btn-cta-activities {
+        margin-left: 35px;
+        margin-top: 35px;
+    }
+
+
+}
+
+@media (min-width: 1400px) {
+
+
+    .home-attractions-text p {
+        font-size: 1.1rem;
+    }
+
+    .home-attractions-text h2 {
+        font-size: 4rem;
+    }
+
+    .home-review-margin {
+        margin-right: 20px;
+    }
+
+    .footer-margin {
+        margin: auto;
+    }
+
+    .card-img-overlay {
+        margin: 50px 40px;
+    }
+
+}
