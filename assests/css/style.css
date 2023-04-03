@@ -13,7 +13,7 @@ a {
     -o-transition: color 0.5s;
 }
 
-a:hover {
+.tripadvisor-link:hover {
     color: #900b68;
 }
 
@@ -32,7 +32,6 @@ input:hover {
     -o-transition: color 0.5s;
 }
 
-
 .btn-404:hover,
 .btn-form-confirmation:hover,
 .btn-form-submit:hover,
@@ -44,7 +43,7 @@ input:hover {
 /*-------------------------------------------------------images, image-containers---*/
 
 body {
-    background-image: url(/assests/css/images/bg-image-home.jpg);
+    background-image: url(../css/images/bg-image-home.jpg);
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -81,7 +80,7 @@ body {
 }
 
 .bg-404-error {
-    background-image: url(/assests/css/images/bg-404-img.jpeg);
+    background-image: url(../css/images/bg-404-img.jpeg);
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -137,12 +136,16 @@ q {
     letter-spacing: 0.1rem;
 }
 
+.btn-cta-activities,
 .btn-cta-home {
     font-family: 'Orbitron', sans-serif;
     color: #fafafa;
     background-color: #69666f;
     padding: 8px 16px 8px 16px;
-    margin-bottom: 1rem;
+    margin: 0 auto;
+    border: 3px solid #fafafa;
+    border-radius: 10%;
+    display: inline-block;
     transition: background-color 0.5s;
     -moz-transition: background-color 0.5s;
     -webkit-transition: background-color 0.5s;
@@ -191,7 +194,7 @@ q {
 
 .activities-card-lead {
     font-size: calc(1.4rem + .9vw);
-    word-spacing: calc(.25rem + .9vw); 
+    word-spacing: calc(.25rem + .9vw);
 }
 
 
@@ -221,18 +224,6 @@ q {
     font-size: 130px;
 }
 
-
-.btn-cta-activities {
-    font-family: 'Orbitron', sans-serif;
-    color: #fafafa;
-    background-color: #69666f;
-    padding: 8px 16px 8px 16px;
-    margin-bottom: 1rem;
-    transition: background-color 0.5s;
-    -moz-transition: background-color 0.5s;
-    -webkit-transition: background-color 0.5s;
-    -o-transition: background-color 0.5s;
-}
 
 #space-bar,
 #video-games {
