@@ -322,6 +322,9 @@ In order to fix this i created the following section of code to increase section
     }
   }
 ```
+The layout is now as intended to a minimum screen size of 350 pixels.
+
+![image of layout fix](/testing/images/act-bug-fix.png)
 
 
 ## **Deployment**
