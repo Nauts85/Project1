@@ -386,6 +386,32 @@ textarea {
 
 /*-------------------------------------------------------Media Queries---*/
 
+@media (max-width: 446px) {
+
+    
+    .navbar-toggler,
+    .navbar-brand {
+        font-size: calc(.8rem + .9vw);
+    }
+
+    .btn-cta-activities {
+        font-size: .8rem;
+    }
+
+    #google-map {
+        width: auto;
+        height: auto;
+    }
+
+    #space-bar,
+    #video-games,
+    #events,
+    #food {
+        height: 800px;
+    }
+}
+
+
 @media (min-width: 576px) {
 
     .btn-cta-activities {
