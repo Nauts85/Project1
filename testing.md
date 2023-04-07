@@ -204,16 +204,16 @@ GLH did not flag any issues with the contrast ratio of my website, Text is clear
     * ### **Potential New Customer**
         1. As a Potential New Customer visiting the site i am looking for information about the business.  
            
-           _-On arrival to the site users are shown **headings** and small **descriptions** of what the business is._
+           _-On arrival to the site users are shown <mark style="background-color: lightgrey;">**headings**</mark> and small <mark style="background-color: lightgrey;">**descriptions**</mark> of what the business is.
         
         2. As a Potential New Customer visiting the site i am looking for information about what the business has to offer customers who visit the premises.  
            
-           _-Clicking the **CTA button** under the heading will take users to the activities section of the website that containes a detailed description  
+           _-Clicking the <mark style="background-color: lightgrey;">**CTA button**</mark> under the heading will take users to the activities section of the website that containes a detailed description  
             of everything the business has to offer._
         
         3. As a Potential New Customer i want all relevant information to be easily found through simple navigation links.  
            
-           _-At the top of every page is a clean and simple **navigation bar** with information displayed in order of relevance guiding the user  
+           _-At the top of every page is a clean and simple <mark style="background-color: lightgrey;">**navigation bar**</mark> with information displayed in order of relevance guiding the user  
       to other pages of the website._  
            
            _-On the Activities page there is also an in page naviagtion bar for the user to jump to their desired section with ease._
@@ -221,31 +221,31 @@ GLH did not flag any issues with the contrast ratio of my website, Text is clear
     * ### **Returning Customer**
         1. As a returning Customer to the site i want to see if any new developments have happened within the business.
                   
-           _-Users can access **social media accounts** related to the business at the bottom of every page to keep up to date._
+           _-Users can access <mark style="background-color: lightgrey;">**social media accounts**</mark> related to the business at the bottom of every page to keep up to date._
         
         2. As a returning Customer to the site i want to be able to contact the owners of the business.
 
-           _-Buttons on the **activities page** are all linked to the **contact us page** to encourage users to get in touch with the business._  
+           _-Buttons on the <mark style="background-color: lightgrey;">**activities page**</mark> are all linked to the <mark style="background-color: lightgrey;">**contact us page**</mark> to encourage users to get in touch with the business._  
            
-           _-Users can contact the business through the **"contact us"** page with a form which gives the option to choose the reason for contact._
+           _-Users can contact the business through the <mark style="background-color: lightgrey;">**"contact us"**</mark> page with a form which gives the option to choose the reason for contact._
     
     * ### **Business Owner Goals**
         1. As The Business owner i want to convey the style and personality of my business through the website.
 
-            _-The entire sites style is consistent throughout. Text entrys have a **sense of humour** and **welcoming vibe** to them,  
+            _-The entire sites style is consistent throughout. Text entrys have a <mark style="background-color: lightgrey;">**sense of humour**</mark> and <mark style="background-color: lightgrey;">**welcoming vibe**</mark> to them,  
             with the aim of making users feel that any request they may have is possible._
         
         2. As the Business owner i want to provide my customers with relevant inforamtion about the business.
 
-            _-There are multiple options for users to obtain information relevant to them. The home page has, **headings** with a small **descriptions**  
-            a **Google map** showing the business location, **customer reviews** and a link to **tripadvisor**.  
-            The **Activities** page has a detailed list of everything that is available at the business as well as multpiple **CTA buttons**._
+            _-There are multiple options for users to obtain information relevant to them. The home page has, <mark style="background-color: lightgrey;">**headings**</mark> with a small <mark style="background-color: lightgrey;">**descriptions**</mark>  
+            a <mark style="background-color: lightgrey;">**Google map**</mark> showing the business location, <mark style="background-color: lightgrey;">**customer reviews**</mark> and a link to <mark style="background-color: lightgrey;">**tripadvisor**</mark>.  
+            The <mark style="background-color: lightgrey;">**Activities**</mark> page has a detailed list of everything that is available at the business as well as multpiple <mark style="background-color: lightgrey;">**CTA buttons**</mark>._
 
         3. As the Business owner i want to provide means of contacting the premises through the website.
 
-            _-A Footer is present on every page with links to **social media accounts** related to the business._
+            _-A Footer is present on every page with links to <mark style="background-color: lightgrey;">**social media accounts**</mark> related to the business._
 
-            _-Contact us page complete with a **form** to contact the business directly for any reason._ 
+            _-Contact us page complete with a <mark style="background-color: lightgrey;">**form**</mark> to contact the business directly for any reason._ 
 
 ---
 
@@ -278,7 +278,7 @@ A list of the most popular browsers used in March 2023 was used to decide which 
 ## **Bugs/Issues**
 ---
 
-### **index.html**
+### <mark style="background-color: lightgrey;">**index.html**</mark>
 
 After testing my website on multiple devices through Google dev tools i have discovered that any screen size under 446 pixels causes several elements on my page to not display as intended.  
 Example of the error below:
@@ -300,7 +300,7 @@ The layout is now as intended to a minimum screen size of 350 pixels, in future 
 
 ![image of layout fixed](/testing/images/layout-fix.png)
 
-### **activities.html**
+### <mark style="background-color: lightgrey;">**activities.html**</mark>
 
 Device testing on small devices also created a layout issue on the activities page.  
 Example of the error below:
@@ -326,7 +326,97 @@ The layout is now as intended to a minimum screen size of 350 pixels.
 
 ![image of layout fix](/testing/images/act-bug-fix.png)
 
+---
+## Manual Feature Tests
+### <mark style="background-color: lightgrey;">Index.html</mark> (Home)
+| FEATURE | EXPECTED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
+|:---:|:---:|:---:|:---:|:---:|
+| Site Logo | Link takes users back to the home page | Clicked Logo | Home page reload | Pass |
+| More Info Button | Takes users to Activities page  | Clicked button | Naviagtes to Activities page | Pass |
+| Google Map | Open map in new window | Clicked link | Opened map in new window | Pass |
+| Tripadvisor Link | Opens Trip advisor in new window  | Clicked link | Opened Tripadvisor in new window | Pass |
+| Facebook Icon Button | Opens Facebook in new window  | Clicked link | Opened Facebook in new window  | Pass |
+| Twitter Icon Button | Open Twitter in new window | Clicked link | Opened Twitter in new window | Pass |
+| Twitch Icon Button | Opens Twitch in new window | Clicked link  | Opened Twitch in new window | Pass |
+| Discord Icon Button | Opens Discord in new window | Clicked link | Opened Discord in new window | Pass |
+| Activities Nav Link | Navigates to Activities page | Clicked link | Naviagtes to Activities page | Pass |
+| Rooms Nav Link | Navigates to Rooms page | Clicked link | Naviagtes to Rooms page | Pass |
+| Contact Us Nav Link | Naviagtes to Contact us page | Clicked link | Naviagtes to Contact us page | Pass |
+  
+### <mark style="background-color: lightgrey;">activities.html</mark> (Detailed Information)
+| FEATURE | EXPECTED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
+|:---:|:---:|:---:|:---:|:---:|
+| Site Logo | Link takes users back to the home page | Clicked Logo | Navigates to Home page | Pass |
+| Facebook Icon Button | Opens Facebook in new window  | Clicked link | Opened Facebook in new window  | Pass |
+| Twitter Icon Button | Open Twitter in new window | Clicked link | Opened Twitter in new window | Pass |
+| Twitch Icon Button | Opens Twitch in new window | Clicked link  | Opened Twitch in new window | Pass |
+| Discord Icon Button | Opens Discord in new window | Clicked link | Opened Discord in new window | Pass |
+| Rooms Nav Link | Navigates to Rooms page | Clicked link | Naviagtes to Rooms page | Pass |
+| Contact Us Nav Link | Naviagtes to Contact us page | Clicked link | Naviagtes to Contact us page | Pass |
+| Home Nav link | Navigates to Home page | Clicked link | Naviagtes to Home page | Pass |
+| Video Games internal nav button | Jump to Video Games section | Clicked button | Jumped to Video Games section | Pass |
+| Space Bar internal nav button  | Jump to Space Bar section | Clicked button | Jumped to Video Games section | Pass |
+| Events internal nav button  | Jump to Events section | Clicked button | Jumped to Video Games section | Pass |
+| Food internal nav button  | Jump to Food section | Clicked button | Jumped to Video Games section | Pass |
 
+### <mark style="background-color: lightgrey;">rooms.html</mark> (Under Construction)
+| FEATURE | EXPECTED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
+|:---:|:---:|:---:|:---:|:---:|
+| Site Logo | Link takes users back to the home page | Clicked Logo | Navigates to Home page | Pass |
+| Activities Nav Link | Navigates to Activities page | Clicked link | Naviagtes to Activities page | Pass |
+| Contact Us Nav Link | Naviagtes to Contact us page | Clicked link | Naviagtes to Contact us page | Pass |
+| Home Nav link | Navigates to Home page | Clicked link | Naviagtes to Home page | Pass |
+| Facebook Icon Button | Opens Facebook in new window  | Clicked link | Opened Facebook in new window  | Pass |
+| Twitter Icon Button | Open Twitter in new window | Clicked link | Opened Twitter in new window | Pass |
+| Twitch Icon Button | Opens Twitch in new window | Clicked link  | Opened Twitch in new window | Pass |
+| Discord Icon Button | Opens Discord in new window | Clicked link | Opened Discord in new window | Pass |
+
+### <mark style="background-color: lightgrey;">contactus.html</mark> (Form Page)
+| FEATURE | EXPECTED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
+|:---:|:---:|:---:|:---:|:---:|
+| Site Logo | Link takes users back to the home page | Clicked Logo | Navigates to Home page | Pass |
+| Activities Nav Link | Navigates to Activities page | Clicked link | Naviagtes to Activities page | Pass |
+| Rooms Nav Link | Naviagtes to Rooms page | Clicked link | Naviagtes to Rooms page | Pass |
+| Home Nav link | Navigates to Home page | Clicked link | Naviagtes to Home page | Pass |
+| Facebook Icon Button | Opens Facebook in new window  | Clicked link | Opened Facebook in new window  | Pass |
+| Twitter Icon Button | Open Twitter in new window | Clicked link | Opened Twitter in new window | Pass |
+| Twitch Icon Button | Opens Twitch in new window | Clicked link  | Opened Twitch in new window | Pass |
+| Discord Icon Button | Opens Discord in new window | Clicked link | Opened Discord in new window | Pass |
+
+### <mark style="background-color: lightgrey;">contactus.html</mark> (Form Input Checks)
+
+| FEATURE | EXPECTED OUTCOME | TESTING METHOD PERFOMRED | RESULT | Required Y/N | Pass/Fail |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Reason for contact dropdown menu | Displays multiple contact reasons | Clicked Dropdown | Displays contact reasons | Y | Pass |
+| First name text input | Displays first name | Typed first Name | Name Displayed | Y | Pass |
+| Last name text input | Displays last name | Typed last name | Last name displayed | N | Pass |
+| Email input | Displays email | Typed email | Email displayed | Y | Pass |
+| Text area input | Displays text | Typed text | Text Displayed | Y | Pass |
+| Submit button | Naviagtes to form confirmation page | Clicked button | Naviagted to form confirmation page | N/A | Pass |
+
+### <mark style="background-color: lightgrey;">formconfirmation.html</mark> (Form Confirmation Page)
+| FEATURE | EXPECTED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
+|:---:|:---:|:---:|:---:|:---:|
+| Site Logo | Link takes users back to the home page | Clicked Logo | Navigates to Home page | Pass |
+| Activities Nav Link | Navigates to Activities page | Clicked link | Naviagtes to Activities page | Pass |
+| Rooms Nav Link | Naviagtes to Rooms page | Clicked link | Naviagtes to Rooms page | Pass |
+| Home Nav link | Navigates to Home page | Clicked link | Naviagtes to Home page | Pass |
+| Contact Us Nav Link | Naviagtes to Contact us page | Clicked link | Naviagtes to Contact us page | Pass |
+| Home button | Returns user to home page | Clicked button | Returned to home page | Pass |
+| Facebook Icon Button | Opens Facebook in new window  | Clicked link | Opened Facebook in new window  | Pass |
+| Twitter Icon Button | Open Twitter in new window | Clicked link | Opened Twitter in new window | Pass |
+| Twitch Icon Button | Opens Twitch in new window | Clicked link  | Opened Twitch in new window | Pass |
+| Discord Icon Button | Opens Discord in new window | Clicked link | Opened Discord in new window | Pass |
+
+### <mark style="background-color: lightgrey;">404.html</mark> (Error Page)
+| FEATURE | EXPECTED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
+|:---:|:---:|:---:|:---:|:---:|
+| Site Logo | Link takes users back to the home page | Clicked Logo | Navigates to Home page | Pass |
+| Activities Nav Link | Navigates to Activities page | Clicked link | Naviagtes to Activities page | Pass |
+| Rooms Nav Link | Naviagtes to Rooms page | Clicked link | Naviagtes to Rooms page | Pass |
+| Home Nav link | Navigates to Home page | Clicked link | Naviagtes to Home page | Pass |
+| Contact Us Nav Link | Naviagtes to Contact us page | Clicked link | Naviagtes to Contact us page | Pass |
+| Home button | Returns user to home page | Clicked button | Returned to home page | Pass |
 ## **Deployment**
 ---
 
