@@ -9,7 +9,7 @@
 
 [Link to the live project here](nauts85.github.io/Project1/)
 
-[Link to Testing document here](https://github.com/Nauts85/Project1/blob/84c5e9a246af6e6891a9e4e718f4df2534044ed0/testing.md)
+[Link to Testing document here](https://github.com/Nauts85/Project1/blob/2a11e30a1dc2575b9c92e9edf398d40fe16d8c3d/testing.md)
 
 [Link to 404 Page](https://nauts85.github.io/Project1/404.html)
 
