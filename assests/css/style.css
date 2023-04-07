@@ -159,6 +159,7 @@ q {
     padding: 8px 16px 8px 16px;
     margin-bottom: 1rem;
     top: 280px;
+    height: 40px;
     position: relative;
     transition: background-color 0.5s;
     -moz-transition: background-color 0.5s;
