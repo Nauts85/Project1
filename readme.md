@@ -11,6 +11,8 @@
 
 [Link to Testing document here](https://github.com/Nauts85/Project1/blob/84c5e9a246af6e6891a9e4e718f4df2534044ed0/testing.md)
 
+[Link to 404 Page](https://nauts85.github.io/Project1/404.html)
+
    This is the website for The Space Bar. It has been designed to acheive the goal of providing new and existing customers with relevant information about the business  
    And to provide the business owner with an online presence.   
 
