@@ -3,11 +3,13 @@
 
 ---
 
-![image of site on all devices](/readme/images/amireponsiveimg.png)
+![image of site on all devices](/readme/images/amiresponsive-hero.png)
 
 
 
 [Link to the live project here](nauts85.github.io/Project1/)
+
+[Link to Testing document here](https://github.com/Nauts85/Project1/blob/84c5e9a246af6e6891a9e4e718f4df2534044ed0/testing.md)
 
    This is the website for The Space Bar. It has been designed to acheive the goal of providing new and existing customers with relevant information about the business  
    And to provide the business owner with an online presence.   
@@ -91,7 +93,7 @@
 ---
 * Back to top button on activities.html to increase user accessability
 * Colour blind mode to change certain aspects of the websites colour scheme.
-* Completed rooms page showing each gaming room in detail
+* Completed rooms page showing each gaming room in detail.
 * Contact us form that changes inputs depending on the reason for contact.
 * Booking system for booking the gaming rooms.
 * Calendar for upcoming events on the premises.
