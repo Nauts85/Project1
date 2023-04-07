@@ -15,7 +15,7 @@
 4. [Imagify | Optimization:](https://app.imagify.io/?status=success&utm_source=email_confirmation&utm_medium=email&utm_campaign=account_confirmation)
       * Imagify was used to further reduce the file size of images on the website.
 5. [similarweb](https://www.similarweb.com/browsers/)
-      * Similarweb was used to find out the most popular browsers for March 2023
+      * Similarweb was used to find out the most popular browsers for March 2023.
 
 ---
 
@@ -41,7 +41,7 @@
 
 3. **Error**: Attribute target not allowed on element iframe at this point.
   
-       - Removed taget attribute from iframe element.
+       - Removed target attribute from iframe element.
   
 4. **Error**: Bad value No for attribute allowfullscreen on element iframe.
 
@@ -208,7 +208,7 @@ GLH did not flag any issues with the contrast ratio of my website, Text is clear
         
         2. As a Potential New Customer visiting the site i am looking for information about what the business has to offer customers who visit the premises.  
            
-           _-Clicking the <mark style="background-color: lightgrey;">**CTA button**</mark> under the heading will take users to the activities section of the website that containes a detailed description  
+           _-Clicking the <mark style="background-color: lightgrey;">**CTA button**</mark> under the heading will take users to the activities section of the website that contains a detailed description  
             of everything the business has to offer._
         
         3. As a Potential New Customer i want all relevant information to be easily found through simple navigation links.  
@@ -239,7 +239,7 @@ GLH did not flag any issues with the contrast ratio of my website, Text is clear
 
             _-There are multiple options for users to obtain information relevant to them. The home page has, <mark style="background-color: lightgrey;">**headings**</mark> with a small <mark style="background-color: lightgrey;">**descriptions**</mark>  
             a <mark style="background-color: lightgrey;">**Google map**</mark> showing the business location, <mark style="background-color: lightgrey;">**customer reviews**</mark> and a link to <mark style="background-color: lightgrey;">**tripadvisor**</mark>.  
-            The <mark style="background-color: lightgrey;">**Activities**</mark> page has a detailed list of everything that is available at the business as well as multpiple <mark style="background-color: lightgrey;">**CTA buttons**</mark>._
+            The <mark style="background-color: lightgrey;">**Activities**</mark> page has a detailed list of everything that is available at the business as well as multiple <mark style="background-color: lightgrey;">**CTA buttons**</mark>._
 
         3. As the Business owner i want to provide means of contacting the premises through the website.
 
@@ -247,7 +247,64 @@ GLH did not flag any issues with the contrast ratio of my website, Text is clear
 
             _-Contact us page complete with a <mark style="background-color: lightgrey;">**form**</mark> to contact the business directly for any reason._ 
 
+
+## **Human UX testers**
 ---
+In Order to test the human element of interacting with the site i en-listed the help of my Wife & older Son. They were both given tasks to perform and information to find on the website.
+
+### Human Test #1
+  * Name - Jack
+  * Age - 7
+  * Interests - Roblox, Nature, Music.
+
+Jacks Tasks:
+  * Find the _Tripadvisor_ link and click it.
+  * Navigate to the Activities page.
+  * Name 2 Event types at the premises.
+  * Navigate to the Contact us page through the Events card CTA.
+  * Fill out form suggesting a new game.
+  * Return to the home page.
+
+| TASK | Task Completed Y/N | OBSERVATIONS |
+|:---:|:---:|:---:| 
+| Find the _Tripadvisor_ link and click it | Y | None |
+| Navigate to the Activities page | Y | None |
+| Name 2 Event types at the premises | Y | In page nav bar needs larger click area |
+| Navigate to the Contact us page through the Events card CTA | Y | None |
+| Fill out form suggesting a new game | Y | None |
+| Return to the home page | Y | None |
+| **Total Time taken to complete tasks: 1:56 seconds**. |
+
+**After the test Jack was asked to Provide any feedback on his user experience.**  
+  Jack Loved the look of the whole site, he did struggle for a few seconds with the in-page navigation links on the Activities page.  
+  This may be something to look at as the site continues to be developed.
+
+### Human Test #2
+  * Name - Claire
+  * Age - 37
+  * Interests - TV, Video Games, Dancing.
+
+Claires Tasks:
+  * Find the _Facebook_ link and click it.
+  * Navigate to the Activities page.
+  * Name 2 Drink types we serve at the premises.
+  * Navigate to the Contact us page through the Space Bar card CTA.
+  * Fill out form suggesting a new Drink.
+  * Return to the home page.
+
+| TASK | Task Completed Y/N | OBSERVATIONS |
+|:---:|:---:|:---:| 
+| Find the _Facebook_ link and click it | Y | None |
+| Navigate to the Activities page | Y | None |
+| Name 2 Drink types served at the premises | Y | None |
+| Navigate to the Contact us page through the Space Bar card CTA | Y | None |
+| Fill out form suggesting a new Drink | Y | None |
+| Return to the home page | Y | None |
+| **Total Time taken to complete tasks: 1:31 seconds**. |
+
+After the test Claire was asked to Provide any feedback on her user experience.
+Claire again loved the look of the site and had no issues with any of the navigation links,  
+she also filled out the form with ease and returned to the home page.
 
 ## **Browser Compatability**
 ---
@@ -274,6 +331,98 @@ A list of the most popular browsers used in March 2023 was used to decide which 
 |NEST HUB|NONE|
 |IPHONE 12|LAYOUT OUT OF LINE|
 |SAMSUNG S20 ULTRA|LAYOUT OUT OF LINE|
+
+
+## Manual Feature Tests
+### <mark style="background-color: lightgrey;">Index.html</mark> (Home)
+| FEATURE | INTENDED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
+|:---:|:---:|:---:|:---:|:---:|
+| Site Logo | Link takes users back to the home page | Clicked Logo | Home page reload | Pass |
+| More Info Button | Takes users to Activities page  | Clicked button | Navigates to Activities page | Pass |
+| Google Map | Open map in new window | Clicked link | Opened map in new window | Pass |
+| Tripadvisor Link | Opens Trip advisor in new window  | Clicked link | Opened Tripadvisor in new window | Pass |
+| Facebook Icon Button | Opens Facebook in new window  | Clicked link | Opened Facebook in new window  | Pass |
+| Twitter Icon Button | Open Twitter in new window | Clicked link | Opened Twitter in new window | Pass |
+| Twitch Icon Button | Opens Twitch in new window | Clicked link  | Opened Twitch in new window | Pass |
+| Discord Icon Button | Opens Discord in new window | Clicked link | Opened Discord in new window | Pass |
+| Activities Nav Link | Navigates to Activities page | Clicked link | Navigates to Activities page | Pass |
+| Rooms Nav Link | Navigates to Rooms page | Clicked link | Navigates to Rooms page | Pass |
+| Contact Us Nav Link | Navigates to Contact us page | Clicked link | Navigates to Contact us page | Pass |
+  
+### <mark style="background-color: lightgrey;">activities.html</mark> (Detailed Information)
+| FEATURE | INTENDED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
+|:---:|:---:|:---:|:---:|:---:|
+| Site Logo | Link takes users back to the home page | Clicked Logo | Navigates to Home page | Pass |
+| Facebook Icon Button | Opens Facebook in new window  | Clicked link | Opened Facebook in new window  | Pass |
+| Twitter Icon Button | Open Twitter in new window | Clicked link | Opened Twitter in new window | Pass |
+| Twitch Icon Button | Opens Twitch in new window | Clicked link  | Opened Twitch in new window | Pass |
+| Discord Icon Button | Opens Discord in new window | Clicked link | Opened Discord in new window | Pass |
+| Rooms Nav Link | Navigates to Rooms page | Clicked link | Navigates to Rooms page | Pass |
+| Contact Us Nav Link | Navigates to Contact us page | Clicked link | Navigates to Contact us page | Pass |
+| Home Nav link | Navigates to Home page | Clicked link | Navigates to Home page | Pass |
+| Video Games internal nav button | Jump to Video Games section | Clicked button | Jumped to Video Games section | Pass |
+| Space Bar internal nav button  | Jump to Space Bar section | Clicked button | Jumped to Video Games section | Pass |
+| Events internal nav button  | Jump to Events section | Clicked button | Jumped to Video Games section | Pass |
+| Food internal nav button  | Jump to Food section | Clicked button | Jumped to Video Games section | Pass |
+
+### <mark style="background-color: lightgrey;">rooms.html</mark> (Under Construction)
+| FEATURE | INTENDED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
+|:---:|:---:|:---:|:---:|:---:|
+| Site Logo | Link takes users back to the home page | Clicked Logo | Navigates to Home page | Pass |
+| Activities Nav Link | Navigates to Activities page | Clicked link | Navigates to Activities page | Pass |
+| Contact Us Nav Link | Navigates to Contact us page | Clicked link | Navigates to Contact us page | Pass |
+| Home Nav link | Navigates to Home page | Clicked link | Navigates to Home page | Pass |
+| Facebook Icon Button | Opens Facebook in new window  | Clicked link | Opened Facebook in new window  | Pass |
+| Twitter Icon Button | Open Twitter in new window | Clicked link | Opened Twitter in new window | Pass |
+| Twitch Icon Button | Opens Twitch in new window | Clicked link  | Opened Twitch in new window | Pass |
+| Discord Icon Button | Opens Discord in new window | Clicked link | Opened Discord in new window | Pass |
+
+### <mark style="background-color: lightgrey;">contactus.html</mark> (Form Page)
+| FEATURE | INTENDED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
+|:---:|:---:|:---:|:---:|:---:|
+| Site Logo | Link takes users back to the home page | Clicked Logo | Navigates to Home page | Pass |
+| Activities Nav Link | Navigates to Activities page | Clicked link | Navigates to Activities page | Pass |
+| Rooms Nav Link | Navigates to Rooms page | Clicked link | Navigates to Rooms page | Pass |
+| Home Nav link | Navigates to Home page | Clicked link | Navigates to Home page | Pass |
+| Facebook Icon Button | Opens Facebook in new window  | Clicked link | Opened Facebook in new window  | Pass |
+| Twitter Icon Button | Open Twitter in new window | Clicked link | Opened Twitter in new window | Pass |
+| Twitch Icon Button | Opens Twitch in new window | Clicked link  | Opened Twitch in new window | Pass |
+| Discord Icon Button | Opens Discord in new window | Clicked link | Opened Discord in new window | Pass |
+
+### <mark style="background-color: lightgrey;">contactus.html</mark> (Form Input Checks)
+
+| FEATURE | INTENDED OUTCOME | TESTING METHOD PERFOMRED | RESULT | Required Y/N | Pass/Fail |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Reason for contact dropdown menu | Displays multiple contact reasons | Clicked Dropdown | Displays contact reasons | Y | Pass |
+| First name text input | Displays first name | Typed first Name | Name Displayed | Y | Pass |
+| Last name text input | Displays last name | Typed last name | Last name displayed | N | Pass |
+| Email input | Displays email | Typed email | Email displayed | Y | Pass |
+| Text area input | Displays text | Typed text | Text Displayed | Y | Pass |
+| Submit button | Navigates to form confirmation page | Clicked button | Navigates to form confirmation page | N/A | Pass |
+
+### <mark style="background-color: lightgrey;">formconfirmation.html</mark> (Form Confirmation Page)
+| FEATURE | INTENDED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
+|:---:|:---:|:---:|:---:|:---:|
+| Site Logo | Link takes users back to the home page | Clicked Logo | Navigates to Home page | Pass |
+| Activities Nav Link | Navigates to Activities page | Clicked link | Navigates to Activities page | Pass |
+| Rooms Nav Link | Navigates to Rooms page | Clicked link | Navigates to Rooms page | Pass |
+| Home Nav link | Navigates to Home page | Clicked link | Navigates to Home page | Pass |
+| Contact Us Nav Link | Navigates to Contact us page | Clicked link | Navigates to Contact us page | Pass |
+| Home button | Returns user to home page | Clicked button | Returned to home page | Pass |
+| Facebook Icon Button | Opens Facebook in new window  | Clicked link | Opened Facebook in new window  | Pass |
+| Twitter Icon Button | Open Twitter in new window | Clicked link | Opened Twitter in new window | Pass |
+| Twitch Icon Button | Opens Twitch in new window | Clicked link  | Opened Twitch in new window | Pass |
+| Discord Icon Button | Opens Discord in new window | Clicked link | Opened Discord in new window | Pass |
+
+### <mark style="background-color: lightgrey;">404.html</mark> (Error Page)
+| FEATURE | INTENDED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
+|:---:|:---:|:---:|:---:|:---:|
+| Site Logo | Link takes users back to the home page | Clicked Logo | Navigates to Home page | Pass |
+| Activities Nav Link | Navigates to Activities page | Clicked link | Navigates to Activities page | Pass |
+| Rooms Nav Link | Navigates to Rooms page | Clicked link | Navigates to Rooms page | Pass |
+| Home Nav link | Navigates to Home page | Clicked link | Navigates to Home page | Pass |
+| Contact Us Nav Link | Navigates to Contact us page | Clicked link | Navigates to Contact us page | Pass |
+| Home button | Returns user to home page | Clicked button | Returned to home page | Pass |
 
 ## **Bugs/Issues**
 ---
@@ -327,98 +476,55 @@ The layout is now as intended to a minimum screen size of 350 pixels.
 ![image of layout fix](/testing/images/act-bug-fix.png)
 
 ---
-## Manual Feature Tests
-### <mark style="background-color: lightgrey;">Index.html</mark> (Home)
-| FEATURE | EXPECTED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
-|:---:|:---:|:---:|:---:|:---:|
-| Site Logo | Link takes users back to the home page | Clicked Logo | Home page reload | Pass |
-| More Info Button | Takes users to Activities page  | Clicked button | Naviagtes to Activities page | Pass |
-| Google Map | Open map in new window | Clicked link | Opened map in new window | Pass |
-| Tripadvisor Link | Opens Trip advisor in new window  | Clicked link | Opened Tripadvisor in new window | Pass |
-| Facebook Icon Button | Opens Facebook in new window  | Clicked link | Opened Facebook in new window  | Pass |
-| Twitter Icon Button | Open Twitter in new window | Clicked link | Opened Twitter in new window | Pass |
-| Twitch Icon Button | Opens Twitch in new window | Clicked link  | Opened Twitch in new window | Pass |
-| Discord Icon Button | Opens Discord in new window | Clicked link | Opened Discord in new window | Pass |
-| Activities Nav Link | Navigates to Activities page | Clicked link | Naviagtes to Activities page | Pass |
-| Rooms Nav Link | Navigates to Rooms page | Clicked link | Naviagtes to Rooms page | Pass |
-| Contact Us Nav Link | Naviagtes to Contact us page | Clicked link | Naviagtes to Contact us page | Pass |
-  
-### <mark style="background-color: lightgrey;">activities.html</mark> (Detailed Information)
-| FEATURE | EXPECTED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
-|:---:|:---:|:---:|:---:|:---:|
-| Site Logo | Link takes users back to the home page | Clicked Logo | Navigates to Home page | Pass |
-| Facebook Icon Button | Opens Facebook in new window  | Clicked link | Opened Facebook in new window  | Pass |
-| Twitter Icon Button | Open Twitter in new window | Clicked link | Opened Twitter in new window | Pass |
-| Twitch Icon Button | Opens Twitch in new window | Clicked link  | Opened Twitch in new window | Pass |
-| Discord Icon Button | Opens Discord in new window | Clicked link | Opened Discord in new window | Pass |
-| Rooms Nav Link | Navigates to Rooms page | Clicked link | Naviagtes to Rooms page | Pass |
-| Contact Us Nav Link | Naviagtes to Contact us page | Clicked link | Naviagtes to Contact us page | Pass |
-| Home Nav link | Navigates to Home page | Clicked link | Naviagtes to Home page | Pass |
-| Video Games internal nav button | Jump to Video Games section | Clicked button | Jumped to Video Games section | Pass |
-| Space Bar internal nav button  | Jump to Space Bar section | Clicked button | Jumped to Video Games section | Pass |
-| Events internal nav button  | Jump to Events section | Clicked button | Jumped to Video Games section | Pass |
-| Food internal nav button  | Jump to Food section | Clicked button | Jumped to Video Games section | Pass |
 
-### <mark style="background-color: lightgrey;">rooms.html</mark> (Under Construction)
-| FEATURE | EXPECTED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
-|:---:|:---:|:---:|:---:|:---:|
-| Site Logo | Link takes users back to the home page | Clicked Logo | Navigates to Home page | Pass |
-| Activities Nav Link | Navigates to Activities page | Clicked link | Naviagtes to Activities page | Pass |
-| Contact Us Nav Link | Naviagtes to Contact us page | Clicked link | Naviagtes to Contact us page | Pass |
-| Home Nav link | Navigates to Home page | Clicked link | Naviagtes to Home page | Pass |
-| Facebook Icon Button | Opens Facebook in new window  | Clicked link | Opened Facebook in new window  | Pass |
-| Twitter Icon Button | Open Twitter in new window | Clicked link | Opened Twitter in new window | Pass |
-| Twitch Icon Button | Opens Twitch in new window | Clicked link  | Opened Twitch in new window | Pass |
-| Discord Icon Button | Opens Discord in new window | Clicked link | Opened Discord in new window | Pass |
-
-### <mark style="background-color: lightgrey;">contactus.html</mark> (Form Page)
-| FEATURE | EXPECTED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
-|:---:|:---:|:---:|:---:|:---:|
-| Site Logo | Link takes users back to the home page | Clicked Logo | Navigates to Home page | Pass |
-| Activities Nav Link | Navigates to Activities page | Clicked link | Naviagtes to Activities page | Pass |
-| Rooms Nav Link | Naviagtes to Rooms page | Clicked link | Naviagtes to Rooms page | Pass |
-| Home Nav link | Navigates to Home page | Clicked link | Naviagtes to Home page | Pass |
-| Facebook Icon Button | Opens Facebook in new window  | Clicked link | Opened Facebook in new window  | Pass |
-| Twitter Icon Button | Open Twitter in new window | Clicked link | Opened Twitter in new window | Pass |
-| Twitch Icon Button | Opens Twitch in new window | Clicked link  | Opened Twitch in new window | Pass |
-| Discord Icon Button | Opens Discord in new window | Clicked link | Opened Discord in new window | Pass |
-
-### <mark style="background-color: lightgrey;">contactus.html</mark> (Form Input Checks)
-
-| FEATURE | EXPECTED OUTCOME | TESTING METHOD PERFOMRED | RESULT | Required Y/N | Pass/Fail |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| Reason for contact dropdown menu | Displays multiple contact reasons | Clicked Dropdown | Displays contact reasons | Y | Pass |
-| First name text input | Displays first name | Typed first Name | Name Displayed | Y | Pass |
-| Last name text input | Displays last name | Typed last name | Last name displayed | N | Pass |
-| Email input | Displays email | Typed email | Email displayed | Y | Pass |
-| Text area input | Displays text | Typed text | Text Displayed | Y | Pass |
-| Submit button | Naviagtes to form confirmation page | Clicked button | Naviagted to form confirmation page | N/A | Pass |
-
-### <mark style="background-color: lightgrey;">formconfirmation.html</mark> (Form Confirmation Page)
-| FEATURE | EXPECTED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
-|:---:|:---:|:---:|:---:|:---:|
-| Site Logo | Link takes users back to the home page | Clicked Logo | Navigates to Home page | Pass |
-| Activities Nav Link | Navigates to Activities page | Clicked link | Naviagtes to Activities page | Pass |
-| Rooms Nav Link | Naviagtes to Rooms page | Clicked link | Naviagtes to Rooms page | Pass |
-| Home Nav link | Navigates to Home page | Clicked link | Naviagtes to Home page | Pass |
-| Contact Us Nav Link | Naviagtes to Contact us page | Clicked link | Naviagtes to Contact us page | Pass |
-| Home button | Returns user to home page | Clicked button | Returned to home page | Pass |
-| Facebook Icon Button | Opens Facebook in new window  | Clicked link | Opened Facebook in new window  | Pass |
-| Twitter Icon Button | Open Twitter in new window | Clicked link | Opened Twitter in new window | Pass |
-| Twitch Icon Button | Opens Twitch in new window | Clicked link  | Opened Twitch in new window | Pass |
-| Discord Icon Button | Opens Discord in new window | Clicked link | Opened Discord in new window | Pass |
-
-### <mark style="background-color: lightgrey;">404.html</mark> (Error Page)
-| FEATURE | EXPECTED OUTCOME | TESTING METHOD PERFOMRED | RESULT | PASS/FAIL |
-|:---:|:---:|:---:|:---:|:---:|
-| Site Logo | Link takes users back to the home page | Clicked Logo | Navigates to Home page | Pass |
-| Activities Nav Link | Navigates to Activities page | Clicked link | Naviagtes to Activities page | Pass |
-| Rooms Nav Link | Naviagtes to Rooms page | Clicked link | Naviagtes to Rooms page | Pass |
-| Home Nav link | Navigates to Home page | Clicked link | Naviagtes to Home page | Pass |
-| Contact Us Nav Link | Naviagtes to Contact us page | Clicked link | Naviagtes to Contact us page | Pass |
-| Home button | Returns user to home page | Clicked button | Returned to home page | Pass |
 ## **Deployment**
 ---
+ ### Deploying straight from original repo
+ 
+ These are the steps needed in order to deploy the website from the repo:
+
+ 1. Click the **Settings** Tab shown in the image below:
+
+![image of deployment task](/testing/images/dploy-tsk-1.png)
+
+ 2. Click the **Pages** section of settings:
+
+![image of deployment task](/testing/images/dploy-tsk-2.png)
+
+ 3. Click the **Source** dropdown menu and select **deploy from branch**
+
+![image of deployment task](/testing/images/dploy-tsk-3.1.png)
+
+ 4. Click the **Branch** dropdown menu, Repeat for the **folder** dropdown menu and click save.
+
+![image of deployment task](/testing/images/dploy-tsk-3.2.png)
+
+ 5. On Clicking **Save** the page should refresh and your site url will be displayed. (please allow up to 10 minutes for deployment.)
+
+![image of deployment](/testing/images/dploy-tsk-3.3.png)
+
+### Cloning and Deploying
+
+These are the steps needed in order to Clone the Repo and all of its files:
+
+1. Click the green **Code** button located at the top right of the repo file screen.
+
+![image of clone deployment](/testing/images/clo-dploy-tsk-1.png)
+
+2. Click the Box highlighted in the image to copy the **Repo URL**.
+
+![image of clone deployment](/testing/images/clo-dploy-tsk-2.png)
+
+3. Navigate to your **codespace** and in the **CLI** type ** git clone "Copied URL goes here" see image below for an example.
+
+![image of clone deployment](/testing/images/clo-dplo-tsk-3.png)
+
+
+---
+---
+
+
+
 
 
 
