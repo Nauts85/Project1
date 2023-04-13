@@ -477,51 +477,7 @@ The layout is now as intended to a minimum screen size of 350 pixels.
 
 ---
 
-## **Deployment**
----
- ### Deploying straight from original repo
- 
- These are the steps needed in order to deploy the website from the repo:
 
- 1. Click the **Settings** Tab shown in the image below:
-
-![image of deployment task](/testing/images/dploy-tsk-1.png)
-
- 2. Click the **Pages** section of settings:
-
-![image of deployment task](/testing/images/dploy-tsk-2.png)
-
- 3. Click the **Source** dropdown menu and select **deploy from branch**
-
-![image of deployment task](/testing/images/dploy-tsk-3.1.png)
-
- 4. Click the **Branch** dropdown menu, Repeat for the **folder** dropdown menu and click save.
-
-![image of deployment task](/testing/images/dploy-tsk-3.2.png)
-
- 5. On Clicking **Save** the page should refresh and your site url will be displayed. (please allow up to 10 minutes for deployment.)
-
-![image of deployment](/testing/images/dploy-tsk-3.3.png)
-
-### Cloning and Deploying
-
-These are the steps needed in order to Clone the Repo and all of its files:
-
-1. Click the green **Code** button located at the top right of the repo file screen.
-
-![image of clone deployment](/testing/images/clo-dploy-tsk-1.png)
-
-2. Click the Box highlighted in the image to copy the **Repo URL**.
-
-![image of clone deployment](/testing/images/clo-dploy-tsk-2.png)
-
-3. Navigate to your **codespace** and in the **CLI** type ** git clone "Copied URL goes here" see image below for an example.
-
-![image of clone deployment](/testing/images/clo-dplo-tsk-3.png)
-
-
----
----
 
 
 
